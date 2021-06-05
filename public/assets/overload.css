@@ -1,0 +1,29 @@
+nav,
+.navigation{
+    background:white !important;
+}
+.navbar-nav{
+    font-size: 20px;
+}
+#navbarMain{
+    justify-content:center;
+}
+#logo-brand{
+    margin-left: 120px;
+}
+.nav-link{
+    text-decoration: none;
+    margin: 7px 10px !important;
+}
+a.dropdown-item{
+    margin: 5px 0px;
+}
+a{
+    text-decoration:none;
+}
+.link-clear{
+    color:white !important;
+}
+.img-post{
+    max-width: 250px;
+}

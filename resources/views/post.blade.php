@@ -3,7 +3,7 @@
 @section('banner')
 
 @section('content')
-<header class="masthead" style="background-image: url({{ asset($post->image) }})">
+<header class="masthead img-post" style="background-image: url({{ asset($post->image) }})">
     <section id="featured-news" class="write-wrapper">
         <div class="section-inner">
             <div class="container">
