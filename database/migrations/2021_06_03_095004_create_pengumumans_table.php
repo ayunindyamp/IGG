@@ -17,6 +17,7 @@ class CreatePengumumansTable extends Migration
             $table->id();
             $table->integer('user_id');
             $table->string('judul');
+            $table->string('slug');
             $table->string('lampiran');
             $table->timestamps();
         });

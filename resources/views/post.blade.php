@@ -3,10 +3,10 @@
 @section('banner')
 
 @section('content')
-<header class="masthead img-post" style="background-image: url({{ asset($post->image) }})">
+<header class="masthead">
     <section id="featured-news" class="write-wrapper">
         <div class="section-inner">
-            <div class="container">
+            <img class="img-post" src="{{ asset($post->image) }}">
 </header>
 <div class="wrapper row3">
     <main class="hoc container clear">
@@ -20,9 +20,7 @@
             </span>
             <h2 class="subheading">{{ $post->subtitle }}</h2>
         </center>
-        <Justify>
-        <p>{{ $post->description }}</p>
-</Justify>
+        <p class="desc-post">{{ $post->description }}</p>
     </main>
 </div>
 </section>

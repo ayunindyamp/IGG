@@ -25,5 +25,11 @@ a{
     color:white !important;
 }
 .img-post{
-    max-width: 250px;
+    max-height: 300px;
+    margin: 0 auto !important;
+    display: block;
 }
+.desc-post{
+    text-align: justify;
+}
+

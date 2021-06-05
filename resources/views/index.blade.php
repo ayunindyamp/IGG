@@ -20,15 +20,16 @@
                         <p class="btmspace-30">{{ $post->subtitle }}&hellip;</p>
                         <footer><a class="btn" href="{{ route('post', $post->slug) }}">Read More</a></footer>
                 </div>
-                <div class="one_half"><a class="imgover" href="{{ $post->image }}"><img class="borderedbox inspace-10"
-                            src="{{ $post->image }}" alt=""></a></div>
+                <div class="one_quarter"><a class="imgover" href="{{ $post->image }}"><img class="borderedbox inspace-10"
+                            src="{{ $post->image }}" alt="" style="max-width:200px"></a></div>
+                @endforeach
             </article>
             <!-- ################################################################################################ -->
             <!-- / main body -->
             <div class="clear"></div>
         </main>
     </div>
-    @endforeach
+
     <!-- Pager -->
     <div class="paginate">
         {{ $posts->links() }}
