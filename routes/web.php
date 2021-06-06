@@ -6,6 +6,9 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\PengumumanController;
+use App\Models\Pengumuman;
+use GuzzleHttp\Psr7\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,7 +35,26 @@ Route::get('contact', function () {
 Route::get('about', function () {
     return view('about');
 });
+Route::get('sejarah', function () {
+    return view('sejarah');
+});
+Route::get('visimisi', function () {
+    return view('visimisi');
+});
+Route::get('pengumuman', function () {
+    $pengumuman = Pengumuman::all();
 
+    return view('pengumuman', compact('pengumuman'));
+});
+Route::get('keuangan', function () {
+    return view('keuangan');
+});
+Route::get('pengadaan', function () {
+    return view('pengadaan');
+});
+Route::get('sda', function () {
+    return view('sda');
+});
 Route::get('login', [AuthController::class, 'login'])->name('login');
 Route::post('login', [AuthController::class, 'loginPost'])->name('login.post');
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
@@ -43,6 +65,7 @@ Route::middleware(['IsAdmin', 'IsApproved'])->prefix('admin')->name('admin.')->g
     Route::get('posts/{id}', [PostController::class, 'destroy'])->whereNumber('id')->name('posts.destroy');
     Route::get('/', [DashboardController::class, 'index'])->name('index');
     Route::resource('posts', PostController::class);
+    Route::resource('pengumumans', PengumumanController::class);
 
     Route::get('users', [UserController::class, 'index'])->name('users');
     Route::get('users/{id}/edit', [UserController::class, 'edit'])->name('user.edit');

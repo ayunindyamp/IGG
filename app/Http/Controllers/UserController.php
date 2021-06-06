@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Str;
+use App\Models\Pengumuman;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
@@ -28,6 +31,8 @@ class UserController extends Controller
         $user = User::find($id) ?? abort("Welcome to the artisan family !!");
         return view('admin.user-edit', compact('user'));
     }
+
+
 
     public function update(Request $request, $id)
     {

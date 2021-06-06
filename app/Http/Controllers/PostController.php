@@ -59,6 +59,7 @@ class PostController extends Controller
 
         $post->save();
         return redirect()->route('admin.posts.index')->withSuccess('Wow... Rocket !!');
+        $post->upload = $request->upload;
     }
 
     /**
@@ -100,13 +101,13 @@ class PostController extends Controller
         $post->status = $request->status;
         $post->description = $request->description;
         $post->slug = Str::slug($request->title);
-
         if ($request->hasFile('image')) {
             $name = Str::slug($request->title) . '.' . $request->image->extension();
             $request->image->move(public_path('uploads'), $name);
             $post->image = 'uploads/' . $name;
         }
         $post->save();
+        
 
         return redirect()->route('admin.posts.index')->withSuccess("Awesome....");
     }

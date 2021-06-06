@@ -15,7 +15,7 @@
                 <li class="nav-item active p-1">
                     <a class="nav-link" href="{{ route('admin.users') }}">
                  <i class="fab fa-leanpub"></i>
-                        <span>Doc</span></a>
+                        <span>Pengumuman</span></a>
                 </li>
             @endif
             <hr class="sidebar-divider">

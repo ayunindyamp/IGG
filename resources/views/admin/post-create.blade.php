@@ -28,7 +28,7 @@
                             <label for="subtitle">Description</label>
                             <input type="text" name="subtitle" class="form-control">
                             <div class=" form-group col-6">
-                                <label for="image">Cover Image</label>
+                                <label for="image">Image</label>
                                 <input type="file" name="image" class="form-control">
                             </div>
 
