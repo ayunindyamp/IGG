@@ -12,7 +12,7 @@
 		<li class="nav-item dropdown no-arrow">
 			<a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
 				<span class="mr-2 text-gray-600 d-none d-lg-inline small">{{ Auth::user()->name }}</span>
-				<img class="img-profile rounded-circle" width="80" src="/uploads/igg1.png">
+				<img class="img-profile rounded-circle" width="80" src={{asset("assets/images/demo/avatar.png")}}>
 			</a>
 			<div class="shadow dropdown-menu dropdown-menu-right animated--grow-in text-center" aria-labelledby="userDropdown">
 				<div class="dropdown-divider"></div>

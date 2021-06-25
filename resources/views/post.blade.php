@@ -14,7 +14,7 @@
             <h1>{{ $post->title }} </h1>
             <span class="meta">
                 Authors
-<a href="#">{{ $post->author->name }}</a>
+                <a href="#">{{ $post->author->name }}</a>
                 Update
                 {{ $post->created_at->diffForHumans() }}
             </span>

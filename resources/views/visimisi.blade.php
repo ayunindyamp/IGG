@@ -6,11 +6,11 @@
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div class="content"> 
-      <div class="uk-card uk-card-default uk-card-body shadow rounded bg-dark text-white" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-        <h3 class="uk-card-title text-white text-center ">Visi dan Misi</h3>
-        <hr class="bg-white" /> 
-        <i class="fab text-white fa-6x"></i>
+    <div class="content justified"> 
+      <div class="uk-card uk-card-default uk-card-body shadow rounded" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+        <center>
+        <h3>Visi dan Misi</h3> 
+        </center>
         <h2>VISI </h2>
           <ol>
             <li>Menjadi perusahaan industri gula modern terpadu</li>

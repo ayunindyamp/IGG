@@ -32,4 +32,17 @@ a{
 .desc-post{
     text-align: justify;
 }
+.navbar-brand
+{
+    font-size: 1.25rem;
+    line-height: inherit;
+
+    display: inline-block;
+
+    margin-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    white-space: nowrap;
+}
 

@@ -6,10 +6,12 @@
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div class="content"> 
-      <div class="uk-card uk-card-default uk-card-body shadow rounded bg-dark text-white" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+    <div class="content justified"> 
+      <div class="uk-card uk-card-default uk-card-body shadow rounded" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+        <center>
         <h1>SEJARAH PERUSAHAAN</h1>
-          <h2>SEKILAS PT. INDUSTRI GULA GLENMORE </h2>
+        </center>
+          <h4>SEKILAS PT. INDUSTRI GULA GLENMORE </h4>
           <ol>
             <li>PT Industri Gula Glenmore (PT IGG), merupakan Anak Perusahaan yang sahamnya dimiliki oleh PT Perkebunan Nusantara XII (Persero) 99,5%   
               dan  PT Perkebunan Nusantara XI (Persero) 0,5%, dibentuk berdasarkan Surat Menteri BUMN No. S-684/MBU/2012, tanggal 28 Nopember 2012, dan 
@@ -28,7 +30,7 @@
               pakan ternak.</li>
           </ol>
 
-          <h2>LOKASI DAN PENGOLAHAN </h2>
+          <h4>LOKASI DAN PENGOLAHAN </h4>
           <ol>
             <li>Lokasi Pabrik di Desa Karangharjo, Kecamatan Glenmore, Kabupaten Banyuwangi</li>
             <li>Kapasitas Proyek  : 6.000 TTH  ->  8.000 TTH</li>
@@ -39,14 +41,14 @@
             <li>Produk turunan : bioethanol, pupuk organik, ekses power, pakan ternak</li>
           </ol>
 
-          <h2>LANDASAN NILAI IGG</h2>
+          <h4>LANDASAN NILAI IGG</h4>
           <ol>
             <li>INTEGRITY - Bekerja atas landasan kejujuran, tanpa pamrih dan berkomitmen tinggi terutama untuk pelayanan costumer.</li>
             <li>GROWTH - Selalu berusaha untuk tumbuh, baik secara korporasi, setiap individu yang terlibat, maupun dilingkungan Perusahaan sendiri.</li>
             <li>GREEN - Selalu menjaga dan mengutamakan kelestarian lingkungan dan mewujudkannya dalam setiap proses bisnis dan tindakan.</li>
           </ol>
 
-          <h2>TEKNOLOGI PABRIK </h2>
+          <h4>TEKNOLOGI PABRIK </h4>
           <ol>
             <li>Pabrik Gula menggunakan teknologi proses “Defekasi Remelt Karbonatasi” untuk menghasilkan gula putih premium (icumsa 80)</li>
             <li>Boiler menggunakan tekanan 45 bar, sehingga lebih 0ptimal dan cukup mendapatkan ekses power</li>

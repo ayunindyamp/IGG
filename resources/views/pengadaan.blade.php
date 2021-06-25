@@ -7,10 +7,9 @@
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
-      <div class="uk-card uk-card-default uk-card-body shadow rounded bg-dark text-white" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-        <h3 class="uk-card-title text-white text-center ">Manajer Pengadaan dan Pemasaran</h3>
+      <div class="uk-card uk-card-default uk-card-body shadow rounded" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+        <h3 class="text-center ">Manajer Pengadaan dan Pemasaran</h3>
         <hr class="bg-white" /> 
-        <i class="fab text-white fa-6x"></i>
         <ol>
           <li>Bertanggung jawab terhadap manajemen bagian pemasaran.</li>
           <li>Bertanggung jawab terhadap perolehan hasil penjualan dan penggunaan 

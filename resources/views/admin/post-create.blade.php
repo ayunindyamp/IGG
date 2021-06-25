@@ -21,23 +21,23 @@
                         @csrf
                         <input type="hidden" name="author_id" value="{{ Auth::user()->id }}">
                         <div class="form-group">
-                            <label for="title">Title</label>
+                            <label for="title">Judul</label>
                             <input type="text" name="title" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label for="subtitle">Description</label>
+                            <label for="subtitle">Subjudul</label>
                             <input type="text" name="subtitle" class="form-control">
                             <div class=" form-group col-6">
-                                <label for="image">Image</label>
+                                <label for="image">Gambar</label>
                                 <input type="file" name="image" class="form-control">
                             </div>
 
                             <div class="form-group">
-                                <label for="description">Content</label>
+                                <label for="description">Berita</label>
                                 <textarea name="description" class="form-control" rows="4"></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-block btn-primary btn-lg">Save Post</button>
+                                <button type="submit" class="btn btn-block btn-primary btn-lg">Simpan</button>
                             </div>
                     </form>
                 </div>

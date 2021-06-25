@@ -22,7 +22,7 @@
                 <div class="one_half first">
                     <h6 class="heading underline font-x2">PT. INDUSTRI GULA GLENMORE
                     </h6>
-                    <p class="btmspace-30">Tugas utama PT Industri Gula Glenmore adalah melaksanakan
+                    <p class="btmspace-30 justified">Tugas utama PT Industri Gula Glenmore adalah melaksanakan
                         pembangunan dan pengelolaan pabrik gula terpadu Glenmore berkapasitas 6.000
                         TCD (expandible 8.000 TCD) di atas sebagian lahan PT Perkebunan Nusantara
                         XII (Persero) seluas 102,4 Ha yang di-inbreng-kan kepada PT Industri Gula

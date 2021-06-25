@@ -3,27 +3,32 @@
 @section('banner')
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-<div class="content">
-      <div class="uk-card uk-card-default uk-card-body shadow rounded bg-dark text-white" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-        <h1>SEJARAH PERUSAHAAN</h1>
-    @foreach($pengumuman as $index => $item)
     <main class="hoc container clear">
         <!-- main body -->
         <!-- ################################################################################################ -->
-        <div class="content">
-            <div class="uk-card uk-card-default uk-card-body shadow rounded bg-dark text-white"
+        <div class="content justified">
+            <div class="uk-card uk-card-default uk-card-body shadow rounded"
                 uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-                <h1 class="uk-card-title text-white text-center ">{{$item->judul}}</h1>
-                <a href="{{asset($item->lampiran)}}" class="btn btn-primary">Download</a>
-                <hr class="bg-white" />
-                <i class="text-white fa-6x"></i>
+                <center>
+                    <h1>PENGUMUMAN TENDER DAN LELANG</h1>
+                </center>
+                @foreach($pengumuman as $index => $item)
+                    <!-- main body -->
+                    <!-- ################################################################################################ -->
+                    <div class="content">
+                        <div class="uk-card uk-card-default uk-card-body shadow rounded"
+                            uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                            <h5 class="uk-card-title text-center ">{{$item->judul}}</h5>
+                            <a href="{{asset($item->lampiran)}}" class="btn btn-primary">Download</a>
+                            <hr class="bg-white" />
+                        </div>
+                        <!-- ################################################################################################ -->
+                    </div>
+                    @endforeach
+                    <!-- ################################################################################################ -->
+                    <!-- / main body -->
             </div>
-            <!-- ################################################################################################ -->
         </div>
-        @endforeach
-        <!-- ################################################################################################ -->
-        <!-- / main body -->
-        <div class="clear"></div>
     </main>
 </div>
 <!-- ################################################################################################ -->

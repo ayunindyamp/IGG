@@ -7,10 +7,11 @@
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
-      <div class="uk-card uk-card-default uk-card-body shadow rounded bg-dark text-white" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-        <h3 class="uk-card-title text-white text-center ">Manajer keuangan dan Logistik</h3>
+      <div class="uk-card uk-card-default uk-card-body shadow rounded" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+        <center>
+        <h3>Manajer keuangan dan Logistik</h3>
+        </center>
         <hr class="bg-white" /> 
-        <i class="fab text-white fa-6x"></i>
         <h2>Tugas Pokok dan Fungsi </h2>
           <ol>
             <li>Bekerja sama dengan manajer lain, bertugas merencanakan dan 

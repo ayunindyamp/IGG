@@ -3,8 +3,8 @@
     <footer id="footer" class="hoc clear">
         <!-- ################################################################################################ -->
         <div class="one_quarter first">
-            <h1 class="logoname clear"><a href={{asset("assets/images/demo/logo.gif")}}><i class="fas fa-handshake"></i>
-                    <span>PT.IGG</span></a></h1>
+            <h1 class="logoname clear"><a href={{asset("assets/images/demo/logo.gif")}}>
+                    <span>PT.Industri Gula Glenmore</span></a></h1>
 
         </div>
         <div class="one_quarter">

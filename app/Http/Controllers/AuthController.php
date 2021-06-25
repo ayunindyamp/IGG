@@ -16,7 +16,7 @@ class AuthController extends Controller
     public function loginPost(Request $request)
     {
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
-            return redirect()->route('admin.index')->withSuccess("Welcome to the artisan family !!!");
+            return redirect()->route('admin.index')->withSuccess("KERJAAA YOOKKK");
         }
         return redirect()->route('login');
     }
